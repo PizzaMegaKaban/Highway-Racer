@@ -59,6 +59,10 @@ public class HR_PlayerCarsEditor : Editor {
             
             prop.cars[i].playerCar = (GameObject)EditorGUILayout.ObjectField("Player Car Prefab", prop.cars[i].playerCar, typeof(GameObject), false, GUILayout.MaxWidth(475f));
 
+            EditorGUILayout.Space();
+
+            prop.cars[i].playerCarView = (GameObject)EditorGUILayout.ObjectField("Player Car Garage View Prefab", prop.cars[i].playerCarView, typeof(GameObject), false, GUILayout.MaxWidth(475f));
+
             EditorGUILayout.HelpBox("You can edit upgraded stats of the vehicle by editing it. Find ''HR_PlayerHandler'' component attached to the vehicle and set maximum upgradable stats.", MessageType.Info);
 
             if (GUILayout.Button("Edit RCC"))
