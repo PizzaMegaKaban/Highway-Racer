@@ -71,7 +71,7 @@ public class HR_API {
 
         for (int i = 0; i < HR_PlayerCars.Instance.cars.Length; i++) {
 
-            if (PlayerPrefs.HasKey(HR_PlayerCars.Instance.cars[i].playerCar.name + "Owned"))
+            if (PlayerPrefs.HasKey(HR_PlayerCars.Instance.cars[i].playerCarView.name + "Owned"))
                 unlockeds.Add(i);
 
         }
@@ -86,7 +86,7 @@ public class HR_API {
     /// <param name="index"></param>
     public static void UnlockVehice(int index) {
 
-        PlayerPrefs.SetInt(HR_PlayerCars.Instance.cars[index].playerCar.name + "Owned", 1);
+        PlayerPrefs.SetInt(HR_PlayerCars.Instance.cars[index].playerCarView.name + "Owned", 1);
 
     }
 
@@ -96,7 +96,7 @@ public class HR_API {
     /// <param name="index"></param>
     public static void LockVehice(int index) {
 
-        PlayerPrefs.DeleteKey(HR_PlayerCars.Instance.cars[index].playerCar.name + "Owned");
+        PlayerPrefs.DeleteKey(HR_PlayerCars.Instance.cars[index].playerCarView.name + "Owned");
 
     }
 
@@ -107,7 +107,7 @@ public class HR_API {
     /// <returns></returns>
     public static bool OwnedVehicle(int index) {
 
-        if (PlayerPrefs.HasKey(HR_PlayerCars.Instance.cars[index].playerCar.name + "Owned"))
+        if (PlayerPrefs.HasKey(HR_PlayerCars.Instance.cars[index].playerCarView.name + "Owned"))
             return true;
         else
             return false;

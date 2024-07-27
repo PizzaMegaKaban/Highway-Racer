@@ -33,6 +33,8 @@ public class HR_PlayerCars : ScriptableObject {
     public class Cars {
 
         public string vehicleName = "";
+
+        public GameObject playerCarView;
         public GameObject playerCar;
 
         public bool unlocked = false;

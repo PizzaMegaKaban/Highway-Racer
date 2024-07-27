@@ -45,7 +45,7 @@ public class HR_MainMenuHandler : MonoBehaviour {
     public GameObject carSelectionMenu;
     public GameObject modsSelectionMenu;
     public GameObject sceneSelectionMenu;
-    //public GameObject creditsMenu;
+    public GameObject creditsMenu;
 
     [Header("UI Loading Section")]
     public GameObject loadingScreen;
@@ -132,7 +132,7 @@ public class HR_MainMenuHandler : MonoBehaviour {
         //	Setting array elements.
         for (int i = 0; i < createdCars.Length; i++) {
 
-            createdCars[i] = (RCC.SpawnRCC(HR_PlayerCars.Instance.cars[i].playerCar.GetComponent<RCC_CarControllerV3>(), carSpawnLocation.position, carSpawnLocation.rotation, false, false, false)).gameObject;
+            createdCars[i] = (RCC.SpawnRCC(HR_PlayerCars.Instance.cars[i].playerCarView.GetComponent<RCC_CarControllerV3>(), carSpawnLocation.position, carSpawnLocation.rotation, false, false, false)).gameObject;
             createdCars[i].GetComponent<RCC_CarControllerV3>().lowBeamHeadLightsOn = true;
             createdCars[i].SetActive(false);
 
@@ -278,7 +278,7 @@ public class HR_MainMenuHandler : MonoBehaviour {
         carSelectionMenu.SetActive(false);
         modsSelectionMenu.SetActive(false);
         sceneSelectionMenu.SetActive(false);
-        //creditsMenu.SetActive(false);
+        creditsMenu.SetActive(false);
         loadingScreen.SetActive(false);
 
         activeMenu.SetActive(true);
