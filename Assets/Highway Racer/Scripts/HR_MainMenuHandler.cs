@@ -45,7 +45,7 @@ public class HR_MainMenuHandler : MonoBehaviour {
     public GameObject carSelectionMenu;
     public GameObject modsSelectionMenu;
     public GameObject sceneSelectionMenu;
-    public GameObject creditsMenu;
+    //public GameObject creditsMenu;
 
     [Header("UI Loading Section")]
     public GameObject loadingScreen;
@@ -278,7 +278,7 @@ public class HR_MainMenuHandler : MonoBehaviour {
         carSelectionMenu.SetActive(false);
         modsSelectionMenu.SetActive(false);
         sceneSelectionMenu.SetActive(false);
-        creditsMenu.SetActive(false);
+        //creditsMenu.SetActive(false);
         loadingScreen.SetActive(false);
 
         activeMenu.SetActive(true);
