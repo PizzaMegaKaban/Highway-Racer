@@ -53,14 +53,14 @@ public class HR_PlayerHandler : MonoBehaviour {
 
     public bool canCrash = true;
     [Space()]
-    [Range(250f, 5000f)] public float currentEngineTorque = 300f;        //	Current engine torque.
-    [Range(2000f, 6000f)] public float currentBrakeTorque = 2000f;        //	Current brake torque.
-    [Range(.1f, .5f)] public float currentHandlingStrength = .1f;     //	Current handling strength.
+    [Range(1f, 100000f)] public float currentEngineTorque = 300f;        //	Current engine torque.
+    [Range(2000f, 100000f)] public float currentBrakeTorque = 2000f;        //	Current brake torque.
+    [Range(.1f, 10f)] public float currentHandlingStrength = .1f;     //	Current handling strength.
     [Range(200f, 400f)] public float currentSpeed = 360f;     //	Current speed.
     [Space()]
-    [Range(250f, 5000f)] public float maxEngineTorque = 300f;        //	Maximum upgradable engine torque.
-    [Range(2000f, 6000f)] public float maxBrakeTorque = 2000f;        //	Maximum upgradable brake torque.
-    [Range(.1f, .5f)] public float maxHandlingStrength = .1f;     //	Maximum upgradable handling strength.
+    [Range(1f, 100000f)] public float maxEngineTorque = 300f;        //	Maximum upgradable engine torque.
+    [Range(2000f, 100000f)] public float maxBrakeTorque = 2000f;        //	Maximum upgradable brake torque.
+    [Range(.1f, 10f)] public float maxHandlingStrength = .1f;     //	Maximum upgradable handling strength.
     [Range(200f, 400f)] public float maxSpeed = 360f;     //	Maximum upgradable speed.
 
     public float damage = 0f;       //  Current damage.

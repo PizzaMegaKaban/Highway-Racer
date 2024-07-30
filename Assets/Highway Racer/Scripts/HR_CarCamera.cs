@@ -1,12 +1,4 @@
-﻿//----------------------------------------------
-//           	   Highway Racer
-//
-// Copyright © 2014 - 2023 BoneCracker Games
-// http://www.bonecrackergames.com
-//
-//----------------------------------------------
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 /// <summary>
