@@ -15,7 +15,7 @@ C:/Users/Public/Documents/Highway Racer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56452
+49266
 Successfully changed project path to: C:/Users/Public/Documents/Highway Racer
 C:/Users/Public/Documents/Highway Racer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Public/Documents/Highway Racer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18228] Host "[IP] 192.168.0.197 [Port] 0 [Flags] 2 [Guid] 4060291546 [EditorId] 4060291546 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-COHVPBU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14744] Host "[IP] 192.168.0.197 [Port] 0 [Flags] 2 [Guid] 3292722730 [EditorId] 3292722730 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-COHVPBU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18228] Host "[IP] 192.168.0.197 [Port] 0 [Flags] 2 [Guid] 4060291546 [EditorId] 4060291546 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-COHVPBU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14744] Host "[IP] 192.168.0.197 [Port] 0 [Flags] 2 [Guid] 3292722730 [EditorId] 3292722730 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-COHVPBU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 5.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.15f1 (b58023a2b463)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -70,51 +70,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006589 seconds.
-- Loaded All Assemblies, in  0.318 seconds
+Registered in 0.007684 seconds.
+- Loaded All Assemblies, in  0.315 seconds
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 211 ms
+Android Extension - Scanning For ADB Devices 203 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.516 seconds
-Domain Reload Profiling: 834ms
-	BeginReloadAssembly (96ms)
+- Finished resetting the current domain, in  0.499 seconds
+Domain Reload Profiling: 814ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (134ms)
-		LoadAssemblies (95ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (92ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (131ms)
-			TypeCache.Refresh (130ms)
-				TypeCache.ScanAssembly (118ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (120ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (516ms)
+	FinalizeReload (499ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (466ms)
+		SetupLoadedEditorAssemblies (451ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (318ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (308ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (103ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,8 +124,8 @@ Domain Reload Profiling: 834ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.588 seconds
-Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.568 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -133,47 +135,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.606 seconds
-Domain Reload Profiling: 1193ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  0.577 seconds
+Domain Reload Profiling: 1143ms
+	BeginReloadAssembly (120ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
+		CreateAndSetChildDomain (17ms)
 	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (386ms)
-		LoadAssemblies (267ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (254ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (188ms)
-			TypeCache.Refresh (165ms)
-				TypeCache.ScanAssembly (150ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (607ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (577ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (467ms)
+		SetupLoadedEditorAssemblies (444ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (359ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3685 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 39 unused Assets / (57.6 KB). Loaded Objects now: 4181.
 Memory consumption went from 159.3 MB to 159.2 MB.
-Total: 3.645400 ms (FindLiveObjects: 0.368600 ms CreateObjectMapping: 0.198900 ms MarkObjects: 2.943800 ms  DeleteObjects: 0.132700 ms)
+Total: 2.542400 ms (FindLiveObjects: 0.223100 ms CreateObjectMapping: 0.106900 ms MarkObjects: 2.116500 ms  DeleteObjects: 0.094800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -191,57 +193,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 476438.684068 seconds.
-  path: Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Muscle/Muscle_Low.wav
-  artifactKey: Guid(3cbdae80ccc02b94a9222ee8cf18043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Muscle/Muscle_Low.wav using Guid(3cbdae80ccc02b94a9222ee8cf18043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddefaec5a66a6ef8dbd4310168d3f18') in 0.090404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Muscle/Muscle_Off.wav
-  artifactKey: Guid(b399f348d1970124885129bc8f0fa8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Muscle/Muscle_Off.wav using Guid(b399f348d1970124885129bc8f0fa8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3234991a105bd2a9d23ad94112d326') in 0.018675 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 148.365319 seconds.
+  Time since last request: 561081.891468 seconds.
   path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
   artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6795fb76a3d09d62ec73986f5867cab1') in 0.060608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 268
-========================================================================
-Received Import Request.
-  Time since last request: 17.994983 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e6cdfd6c0d5074025e598de860422a') in 0.123702 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Import Request.
-  Time since last request: 52.862349 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb229887a4e1203b69db617bd4194be') in 0.025657 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Import Request.
-  Time since last request: 11.980902 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9f49ea74b3a6b05547cc774ec8dc03') in 0.022995 seconds
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d708b0253c3efcedf5addcb290dad1') in 0.102098 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 272
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.056 seconds
-Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.375 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -250,46 +212,46 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  9.080 seconds
-Domain Reload Profiling: 11136ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  0.820 seconds
+Domain Reload Profiling: 1194ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (23ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (1882ms)
-		LoadAssemblies (1930ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (235ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (9081ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (820ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (411ms)
+		SetupLoadedEditorAssemblies (409ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
+			InitializePlatformSupportModulesInManaged (31ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (308ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 4194.
-Memory consumption went from 154.2 MB to 154.2 MB.
-Total: 3.028400 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.267700 ms MarkObjects: 2.480400 ms  DeleteObjects: 0.053500 ms)
+Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 4192.
+Memory consumption went from 154.1 MB to 154.1 MB.
+Total: 2.219000 ms (FindLiveObjects: 0.195900 ms CreateObjectMapping: 0.086700 ms MarkObjects: 1.878700 ms  DeleteObjects: 0.056600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -307,10 +269,552 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 106.125763 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
+  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af9731c78fbe1359e1aa8e2e2eac59d') in 0.105007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 272
+========================================================================
+Received Import Request.
+  Time since last request: 7.186708 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
+  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1895ddaf649f5f95b9bc5a404cbeff1') in 0.028759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 272
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.370 seconds
+- Loaded All Assemblies, in  0.394 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.775 seconds
+Domain Reload Profiling: 1168ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (776ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (410ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (297ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 4195.
+Memory consumption went from 156.1 MB to 156.1 MB.
+Total: 2.845000 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.157000 ms MarkObjects: 2.400800 ms  DeleteObjects: 0.045800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 298.923545 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da6e9e21ce0512bf95290145c28dde2') in 0.098603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.374 seconds
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.736 seconds
+Domain Reload Profiling: 1108ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (736ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (411ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 4198.
+Memory consumption went from 158.1 MB to 158.0 MB.
+Total: 2.784600 ms (FindLiveObjects: 0.217300 ms CreateObjectMapping: 0.171500 ms MarkObjects: 2.342900 ms  DeleteObjects: 0.051400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 86.775226 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10fe5dbb21a36ea6708e2d78c550d65') in 0.089159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time since last request: 5.296589 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaee6f0d05b6f69c5cdc8d7bb0af6f1d') in 0.023854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.377 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.782 seconds
+Domain Reload Profiling: 1157ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (240ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (782ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (415ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 4201.
+Memory consumption went from 160.0 MB to 160.0 MB.
+Total: 2.319800 ms (FindLiveObjects: 0.221200 ms CreateObjectMapping: 0.163900 ms MarkObjects: 1.895500 ms  DeleteObjects: 0.038000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54.891929 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532a9eb611fc8f336d6cbe5e1c70f06a') in 0.092776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time since last request: 17.562195 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da685bb7477357fd12262fbfdcfe4771') in 0.026494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.372 seconds
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.766 seconds
+Domain Reload Profiling: 1137ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (766ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (414ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 5.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.8 KB). Loaded Objects now: 4204.
+Memory consumption went from 161.9 MB to 161.9 MB.
+Total: 2.384000 ms (FindLiveObjects: 0.196400 ms CreateObjectMapping: 0.096300 ms MarkObjects: 2.049700 ms  DeleteObjects: 0.040200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 86.526369 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e013a735943d2a258450b763667c7f') in 0.091782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time since last request: 20.255329 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e339055cf89e44f8670c173768f6b08b') in 0.021463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time since last request: 2.636696 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3013201f2ec1e01ed1ee2dfc1158894a') in 0.024193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.389 seconds
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.767 seconds
+Domain Reload Profiling: 1154ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (767ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (406ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 4207.
+Memory consumption went from 163.9 MB to 163.9 MB.
+Total: 2.509400 ms (FindLiveObjects: 0.209700 ms CreateObjectMapping: 0.094200 ms MarkObjects: 2.159100 ms  DeleteObjects: 0.045300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 85.980038 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc63b443942d742001cf2f6e73e9e57') in 0.093012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time since last request: 9.472580 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcb0aa9a48e3a1cd730bd6264fb9128') in 0.023551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time since last request: 9.250727 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d29b1ec18bbf85cebdef3c7d94e2b5') in 0.023957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.378 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.803 seconds
+Domain Reload Profiling: 1180ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (803ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (425ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.8 KB). Loaded Objects now: 4210.
+Memory consumption went from 165.8 MB to 165.8 MB.
+Total: 2.373700 ms (FindLiveObjects: 0.198800 ms CreateObjectMapping: 0.097600 ms MarkObjects: 2.034300 ms  DeleteObjects: 0.042000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29.813330 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3549b16c1c4680d44fec3a5fa57c2a8c') in 0.088429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time since last request: 16.759470 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da4e6110932b5ee71771a66b4d8f6cd') in 0.025354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time since last request: 12.635530 seconds.
+  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
+  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4ee805452905be919c048ce6fc2fa4') in 0.025827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.365 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -320,20 +824,352 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.756 seconds
-Domain Reload Profiling: 1125ms
+Domain Reload Profiling: 1120ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (757ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (418ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.8 KB). Loaded Objects now: 4213.
+Memory consumption went from 167.7 MB to 167.7 MB.
+Total: 2.564300 ms (FindLiveObjects: 0.199800 ms CreateObjectMapping: 0.205300 ms MarkObjects: 2.116300 ms  DeleteObjects: 0.041500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 258.315792 seconds.
+  path: Assets/Textures/New Material.mat
+  artifactKey: Guid(667dd808e4035bf4db07ae5e420dc4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/New Material.mat using Guid(667dd808e4035bf4db07ae5e420dc4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ad4f647ce9da62a3b11dfa3c9d0d7a') in 0.076496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 190.065524 seconds.
+  path: Assets/Textures/New Material.mat
+  artifactKey: Guid(667dd808e4035bf4db07ae5e420dc4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/New Material.mat using Guid(667dd808e4035bf4db07ae5e420dc4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12da554c16f8b9e8a19a45f549072d46') in 0.014218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.390 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.776 seconds
+Domain Reload Profiling: 1164ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (776ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (416ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (310ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.8 KB). Loaded Objects now: 4249.
+Memory consumption went from 169.9 MB to 169.8 MB.
+Total: 2.768300 ms (FindLiveObjects: 0.316300 ms CreateObjectMapping: 0.151600 ms MarkObjects: 2.247600 ms  DeleteObjects: 0.051400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.433790 seconds.
+  path: Assets/Highway Racer/Scenes/Valley.unity
+  artifactKey: Guid(4c65de832f4c4b7479f4c3519cfbcf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highway Racer/Scenes/Valley.unity using Guid(4c65de832f4c4b7479f4c3519cfbcf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79affb7826a42e78ca260a9a83bcfee4') in 0.002945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 55.153001 seconds.
+  path: Assets/Textures/New Material.mat
+  artifactKey: Guid(667dd808e4035bf4db07ae5e420dc4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/New Material.mat using Guid(667dd808e4035bf4db07ae5e420dc4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3d7f05ac95bed1732215c067ecb72f') in 0.069943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.371 seconds
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.781 seconds
+Domain Reload Profiling: 1150ms
 	BeginReloadAssembly (125ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (781ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (410ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.8 KB). Loaded Objects now: 4252.
+Memory consumption went from 171.8 MB to 171.8 MB.
+Total: 2.295700 ms (FindLiveObjects: 0.207400 ms CreateObjectMapping: 0.109900 ms MarkObjects: 1.935800 ms  DeleteObjects: 0.041500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.376 seconds
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.830 seconds
+Domain Reload Profiling: 1205ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (29ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (190ms)
-		LoadAssemblies (240ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (244ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (830ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (436ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 4255.
+Memory consumption went from 173.7 MB to 173.7 MB.
+Total: 2.671700 ms (FindLiveObjects: 0.254400 ms CreateObjectMapping: 0.101000 ms MarkObjects: 2.259000 ms  DeleteObjects: 0.056100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 288.665764 seconds.
+  path: Assets/Textures/Снимок экрана 2024-08-01 214340 (1).png
+  artifactKey: Guid(ff7e2fecc1ca9654fab7b7f6efeadb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Снимок экрана 2024-08-01 214340 (1).png using Guid(ff7e2fecc1ca9654fab7b7f6efeadb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003c874ab8633dd9df4f244acc214bff') in 0.060997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.662741 seconds.
+  path: Assets/Textures/Снимок экрана 2024-08-01 214340 (1).png
+  artifactKey: Guid(ff7e2fecc1ca9654fab7b7f6efeadb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Снимок экрана 2024-08-01 214340 (1).png using Guid(ff7e2fecc1ca9654fab7b7f6efeadb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a0747b154878c3ff213f88202b4e1b') in 0.042036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.656042 seconds.
+  path: Assets/Textures/Valley Screen.png
+  artifactKey: Guid(ff7e2fecc1ca9654fab7b7f6efeadb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Valley Screen.png using Guid(ff7e2fecc1ca9654fab7b7f6efeadb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43799a228d3be8decdebc4612bf47e6a') in 0.022272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.389 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.757 seconds
+Domain Reload Profiling: 1145ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
 			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
@@ -341,1439 +1177,24 @@ Domain Reload Profiling: 1125ms
 	FinalizeReload (757ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (389ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (293ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 4197.
-Memory consumption went from 156.1 MB to 156.1 MB.
-Total: 2.498000 ms (FindLiveObjects: 0.187100 ms CreateObjectMapping: 0.095700 ms MarkObjects: 2.170300 ms  DeleteObjects: 0.044000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 532.196800 seconds.
-  path: Assets/Highway Racer/RealisticCarControllerV3/Prefabs/GuardRail.prefab
-  artifactKey: Guid(9311cdd7c5885e44f831eee92a73d134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/RealisticCarControllerV3/Prefabs/GuardRail.prefab using Guid(9311cdd7c5885e44f831eee92a73d134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac42debb3ef78cc77471fb14c24d7120') in 0.079151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 14.467246 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/CTR.prefab
-  artifactKey: Guid(51fa90530830cf34db90d9e5c3ce72e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/CTR.prefab using Guid(51fa90530830cf34db90d9e5c3ce72e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff1610091274b009d55a6617af908f5') in 0.100960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 480
-========================================================================
-Received Import Request.
-  Time since last request: 15.320273 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd7c7628c6b93acecf8c53302bf96d6') in 0.025658 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Import Request.
-  Time since last request: 8.195785 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7ea28d4e3599207b5daa3724d3d12b') in 0.024771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Import Request.
-  Time since last request: 7.493510 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5866f886091f6217d16ae7cd01c8254c') in 0.025244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Import Request.
-  Time since last request: 16.471490 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afac89796b5478a8bed86841c8cf0f0d') in 0.027364 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Import Request.
-  Time since last request: 15.995417 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab010c8e84ecfc3f08c6fba0fec7e70') in 0.026249 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Import Request.
-  Time since last request: 7.560963 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4c81c717e2b5a8360e76513ae123b6') in 0.024844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Import Request.
-  Time since last request: 2.743740 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2426a55734b28119916656884a0d2eeb') in 0.025467 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Import Request.
-  Time since last request: 33.453007 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2724504ba8f993d2ed39f27504c96fb1') in 0.023519 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.375 seconds
-Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.769 seconds
-Domain Reload Profiling: 1143ms
-	BeginReloadAssembly (128ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (235ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (770ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (426ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (310ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.9 KB). Loaded Objects now: 4202.
-Memory consumption went from 158.3 MB to 158.2 MB.
-Total: 2.889600 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.089200 ms MarkObjects: 2.553000 ms  DeleteObjects: 0.053900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 200.764236 seconds.
-  path: Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Sport
-  artifactKey: Guid(80ccc737a37c3594eab993f587d10da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Sport using Guid(80ccc737a37c3594eab993f587d10da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b07150477a8281bf9339dc6d4df8b17') in 0.003831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.375 seconds
-Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.722 seconds
-Domain Reload Profiling: 1096ms
-	BeginReloadAssembly (132ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (178ms)
-		LoadAssemblies (232ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (722ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (396ms)
+		SetupLoadedEditorAssemblies (407ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (26ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (287ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.8 KB). Loaded Objects now: 4205.
-Memory consumption went from 160.2 MB to 160.2 MB.
-Total: 2.411600 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.089700 ms MarkObjects: 2.076700 ms  DeleteObjects: 0.045000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 219.623998 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c643b3d7761acfcf337b4a641ff8b8c9') in 0.102859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Import Request.
-  Time since last request: 29.968940 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd652ff720b79cbfca084e94a506ce664') in 0.027539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 277
-========================================================================
-Received Import Request.
-  Time since last request: 1.386980 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f62a5632de8ab3d1995bb8f65b2d7eb') in 0.020670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 277
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.354 seconds
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.789 seconds
-Domain Reload Profiling: 1142ms
-	BeginReloadAssembly (126ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (164ms)
-		LoadAssemblies (216ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (789ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (420ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (305ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.8 KB). Loaded Objects now: 4208.
-Memory consumption went from 162.2 MB to 162.1 MB.
-Total: 2.379300 ms (FindLiveObjects: 0.190600 ms CreateObjectMapping: 0.092200 ms MarkObjects: 2.052100 ms  DeleteObjects: 0.042800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 255.283952 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8819bd1aeb28bc8ceb08a03db2847424') in 0.091950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Import Request.
-  Time since last request: 14.971467 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486297fcd15dbd82b0f1d3c62aa913bf') in 0.024027 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Import Request.
-  Time since last request: 2.490305 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae26251ff22392c27f746764bef345f2') in 0.023789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Import Request.
-  Time since last request: 3.967838 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc7dea0c312477ff65afe0ba620a2ec') in 0.022855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Import Request.
-  Time since last request: 2.543086 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90e292de47491e2ce5ebcd2bae4d2a7') in 0.021899 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Import Request.
-  Time since last request: 2.375967 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7541723ad3befed9a6660647ab0cb902') in 0.022161 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Import Request.
-  Time since last request: 2.228253 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cee21ad1eb4af3f95ae18549c977cdd') in 0.023269 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.359 seconds
-Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.811 seconds
-Domain Reload Profiling: 1169ms
-	BeginReloadAssembly (127ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (179ms)
-		LoadAssemblies (232ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (811ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (407ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (298ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 4211.
-Memory consumption went from 164.2 MB to 164.1 MB.
-Total: 2.454200 ms (FindLiveObjects: 0.182700 ms CreateObjectMapping: 0.083700 ms MarkObjects: 2.144800 ms  DeleteObjects: 0.041900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 80.376833 seconds.
-  path: Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Saloon/Saloon_High.wav
-  artifactKey: Guid(c794e6a9176b47c408d7f623a07e4ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Saloon/Saloon_High.wav using Guid(c794e6a9176b47c408d7f623a07e4ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd25deb523b39146c12904cbd851a8d') in 0.064969 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 19.990447 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4974d5a2a7171498c89ce1ed67a0c75c') in 0.054339 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Import Request.
-  Time since last request: 2.449853 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5860169e1365049d51d5fad15197cc4e') in 0.024933 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Import Request.
-  Time since last request: 2.107486 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3df1fc2640c8b6f321ddd7009248e9') in 0.022047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Import Request.
-  Time since last request: 1.881231 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d721873b7c1f4f2e73b46e9d103a22c') in 0.023174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Import Request.
-  Time since last request: 5.065465 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a7e0f4ab54348138e7de04452dfb6a') in 0.026024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.365 seconds
-Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.780 seconds
-Domain Reload Profiling: 1144ms
-	BeginReloadAssembly (132ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (176ms)
-		LoadAssemblies (229ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (781ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (426ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (309ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 4214.
-Memory consumption went from 166.1 MB to 166.1 MB.
-Total: 2.472300 ms (FindLiveObjects: 0.195900 ms CreateObjectMapping: 0.094800 ms MarkObjects: 2.138200 ms  DeleteObjects: 0.041900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 35.050024 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19093aec01a3da8a09cbf1d8912ee27d') in 0.089857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Import Request.
-  Time since last request: 7.107126 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90656ce9f984632707267e995e67a415') in 0.025498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Import Request.
-  Time since last request: 12.215110 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484c52ada477a097a59014097b35175a') in 0.023171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Import Request.
-  Time since last request: 5.478169 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab
-  artifactKey: Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M5 Racing ver.prefab using Guid(d156c462bad50f147afec2c38602025a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a3e142cb472d009d76eb9a383a6a89') in 0.023573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 283
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.381 seconds
-Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.787 seconds
-Domain Reload Profiling: 1166ms
-	BeginReloadAssembly (132ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (190ms)
-		LoadAssemblies (240ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (787ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (423ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (316ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.9 KB). Loaded Objects now: 4217.
-Memory consumption went from 168.0 MB to 168.0 MB.
-Total: 2.416400 ms (FindLiveObjects: 0.231200 ms CreateObjectMapping: 0.175300 ms MarkObjects: 1.969600 ms  DeleteObjects: 0.039200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 84.714240 seconds.
-  path: Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Truck&Van
-  artifactKey: Guid(64a51b7e4cdff6144bbacd120de89eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Truck&Van using Guid(64a51b7e4cdff6144bbacd120de89eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c6dd262fa0ad13c3adde2d60879c22') in 0.003654 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.057565 seconds.
-  path: Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Truck&Van/Truck.wav
-  artifactKey: Guid(49a86b6cfff196e4c8b6929268cb4cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Truck&Van/Truck.wav using Guid(49a86b6cfff196e4c8b6929268cb4cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f50d6da4e3c32968e1720811ef77d39') in 0.055691 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Truck&Van/VanEngineOn.WAV
-  artifactKey: Guid(463e0e0c6cf511e43885c75a4639a677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/RealisticCarControllerV3/Sounds/Engine/Truck&Van/VanEngineOn.WAV using Guid(463e0e0c6cf511e43885c75a4639a677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5a48c81a19421f8ae307052343893b') in 0.022353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1380.115504 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585739504d4869b06a6f5267deee5b69') in 0.079156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Import Request.
-  Time since last request: 28.632945 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3639c332cf4d9fa6797b361e9e07c9bd') in 0.027077 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Import Request.
-  Time since last request: 9.861439 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab
-  artifactKey: Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab using Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d24033b4512df37a433de6e30752e0') in 0.029850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 339
-========================================================================
-Received Import Request.
-  Time since last request: 5.004531 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab
-  artifactKey: Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab using Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f47ffe260ab35c9accb0daf547168ee') in 0.021102 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 340
-========================================================================
-Received Import Request.
-  Time since last request: 3.212358 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab
-  artifactKey: Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab using Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fd99082061b89383a1cd9b6cc3266c') in 0.019850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 341
-========================================================================
-Received Import Request.
-  Time since last request: 8.601606 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab
-  artifactKey: Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab using Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8313eaea5290f3042c9ebf0467d7c8f') in 0.021687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 341
-========================================================================
-Received Import Request.
-  Time since last request: 8.110809 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab
-  artifactKey: Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab using Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a609dab30ec0801ece053190f74cdd9') in 0.021105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 341
-========================================================================
-Received Import Request.
-  Time since last request: 6.928608 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab
-  artifactKey: Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab using Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8554034e03e90eaf16742845d5ed0e6c') in 0.021570 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 341
-========================================================================
-Received Import Request.
-  Time since last request: 29.645514 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW_E30_Racing_ver.prefab
-  artifactKey: Guid(fe579c9b32d65384f8a2c5a4c5233fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW_E30_Racing_ver.prefab using Guid(fe579c9b32d65384f8a2c5a4c5233fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f8b92616a5093e174df10004e66bf5') in 0.023405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 226
-========================================================================
-Received Import Request.
-  Time since last request: 6.168038 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW_E30_Racing_ver.prefab
-  artifactKey: Guid(fe579c9b32d65384f8a2c5a4c5233fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW_E30_Racing_ver.prefab using Guid(fe579c9b32d65384f8a2c5a4c5233fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571f1dee0f5143dde7138bbb7baf22a1') in 0.017689 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 226
-========================================================================
-Received Import Request.
-  Time since last request: 5.326268 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW_E30_Racing_ver.prefab
-  artifactKey: Guid(fe579c9b32d65384f8a2c5a4c5233fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW_E30_Racing_ver.prefab using Guid(fe579c9b32d65384f8a2c5a4c5233fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37eeadc51c67d4d3be1475085ccf826e') in 0.014139 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 226
-========================================================================
-Received Import Request.
-  Time since last request: 12.242104 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW_E30_Racing_ver.prefab
-  artifactKey: Guid(fe579c9b32d65384f8a2c5a4c5233fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW_E30_Racing_ver.prefab using Guid(fe579c9b32d65384f8a2c5a4c5233fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62b54642646ebee8aad8d0864543cad') in 0.019199 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 227
-========================================================================
-Received Import Request.
-  Time since last request: 3.769892 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW_E30_Racing_ver.prefab
-  artifactKey: Guid(fe579c9b32d65384f8a2c5a4c5233fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW_E30_Racing_ver.prefab using Guid(fe579c9b32d65384f8a2c5a4c5233fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aed0b781c99fd1c6b132f8e8609bf68') in 0.018037 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 228
-========================================================================
-Received Import Request.
-  Time since last request: 52.309727 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW_E30_Racing_ver.prefab
-  artifactKey: Guid(fe579c9b32d65384f8a2c5a4c5233fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW_E30_Racing_ver.prefab using Guid(fe579c9b32d65384f8a2c5a4c5233fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5baf869bbeaac9fe2321976a4d31640c') in 0.016245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 228
-========================================================================
-Received Import Request.
-  Time since last request: 109.110663 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab
-  artifactKey: Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M3 Racing ver.prefab using Guid(8606e90cb828826429734228723a8388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c750c029c9a11ead720697efde145a9') in 0.026066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 341
-========================================================================
-Received Import Request.
-  Time since last request: 14.331784 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M4 Racing ver.prefab
-  artifactKey: Guid(d7fb15abca54dc14ca396c0eaa9dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M4 Racing ver.prefab using Guid(d7fb15abca54dc14ca396c0eaa9dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f2c926a7734e2567ec63c681287994') in 0.030926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 275
-========================================================================
-Received Import Request.
-  Time since last request: 5.278027 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M4 Racing ver.prefab
-  artifactKey: Guid(d7fb15abca54dc14ca396c0eaa9dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M4 Racing ver.prefab using Guid(d7fb15abca54dc14ca396c0eaa9dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967a8db6688a14f516c8beac2c85a710') in 0.019724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 276
-========================================================================
-Received Import Request.
-  Time since last request: 4.128218 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M4 Racing ver.prefab
-  artifactKey: Guid(d7fb15abca54dc14ca396c0eaa9dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M4 Racing ver.prefab using Guid(d7fb15abca54dc14ca396c0eaa9dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2ffb97480f1a1e1833ed2f0a6bebe8') in 0.019195 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 277
-========================================================================
-Received Import Request.
-  Time since last request: 10.940042 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M4 Racing ver.prefab
-  artifactKey: Guid(d7fb15abca54dc14ca396c0eaa9dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M4 Racing ver.prefab using Guid(d7fb15abca54dc14ca396c0eaa9dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe14a71e9889e2e66408fc65c873064') in 0.022195 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 277
-========================================================================
-Received Import Request.
-  Time since last request: 6.176754 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M4 Racing ver.prefab
-  artifactKey: Guid(d7fb15abca54dc14ca396c0eaa9dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M4 Racing ver.prefab using Guid(d7fb15abca54dc14ca396c0eaa9dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1552d87aea2f702fd18c05d5edfabb3') in 0.019428 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 277
-========================================================================
-Received Import Request.
-  Time since last request: 14.167979 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M4 Racing ver.prefab
-  artifactKey: Guid(d7fb15abca54dc14ca396c0eaa9dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M4 Racing ver.prefab using Guid(d7fb15abca54dc14ca396c0eaa9dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413f6b3ea720dad0db6d13331636e41d') in 0.016627 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 277
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.589 seconds
-Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.887 seconds
-Domain Reload Profiling: 1475ms
-	BeginReloadAssembly (151ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (365ms)
-		LoadAssemblies (436ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (888ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (407ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (294ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.8 KB). Loaded Objects now: 4220.
-Memory consumption went from 170.3 MB to 170.3 MB.
-Total: 2.701900 ms (FindLiveObjects: 0.238000 ms CreateObjectMapping: 0.100300 ms MarkObjects: 2.298300 ms  DeleteObjects: 0.062500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.366 seconds
-Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.755 seconds
-Domain Reload Profiling: 1119ms
-	BeginReloadAssembly (135ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (177ms)
-		LoadAssemblies (240ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (755ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (384ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (281ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.9 KB). Loaded Objects now: 4223.
-Memory consumption went from 172.3 MB to 172.2 MB.
-Total: 2.610000 ms (FindLiveObjects: 0.216600 ms CreateObjectMapping: 0.116700 ms MarkObjects: 2.231500 ms  DeleteObjects: 0.044000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.025 seconds
-Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  8.940 seconds
-Domain Reload Profiling: 10964ms
-	BeginReloadAssembly (137ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (1831ms)
-		LoadAssemblies (1895ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (8941ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (436ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (321ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.9 KB). Loaded Objects now: 4226.
-Memory consumption went from 174.2 MB to 174.2 MB.
-Total: 2.888200 ms (FindLiveObjects: 0.238800 ms CreateObjectMapping: 0.168600 ms MarkObjects: 2.429700 ms  DeleteObjects: 0.049500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 348.556596 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab
-  artifactKey: Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW M2 Racing ver.prefab using Guid(e07b283c4320fa14881bf3b79d1b5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1c831c2da004c96c15a68d3ff0a19c') in 0.192131 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 272
-========================================================================
-Received Import Request.
-  Time since last request: 13.972847 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab
-  artifactKey: Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab using Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5768f60b355201e78ce80c992c6c167') in 0.034490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 301
-========================================================================
-Received Import Request.
-  Time since last request: 4.920974 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab
-  artifactKey: Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab using Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e68b84bffa21e8f627e3544235ab81') in 0.022235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 302
-========================================================================
-Received Import Request.
-  Time since last request: 3.779761 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab
-  artifactKey: Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab using Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b2b2fdaf916cb3d270ecdebb8d64cf') in 0.021608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 303
-========================================================================
-Received Import Request.
-  Time since last request: 10.550208 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab
-  artifactKey: Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab using Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f0c91130d34b304272f1982e3ae77c') in 0.020482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 303
-========================================================================
-Received Import Request.
-  Time since last request: 6.391962 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab
-  artifactKey: Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab using Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6bcb713ced6115c626bfb5a2bd1d47') in 0.020791 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 303
-========================================================================
-Received Import Request.
-  Time since last request: 5.190980 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab
-  artifactKey: Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab using Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c210450fe1c89fe726fc9fdefa31582') in 0.021098 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 303
-========================================================================
-Received Import Request.
-  Time since last request: 3.432212 seconds.
-  path: Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab
-  artifactKey: Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Player Vehicles/BMW X3 Racing ver.prefab using Guid(3e076283a7ba4334e9e4eabfca514cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432764b95c2794f2bd29dcbd95328952') in 0.020083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 303
-========================================================================
-Received Import Request.
-  Time since last request: 155.480828 seconds.
-  path: Assets/Highway Racer/Sounds/562191__gristi__snd_swing_whoosh.wav
-  artifactKey: Guid(5504a071983441b46a5dc63053650ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Sounds/562191__gristi__snd_swing_whoosh.wav using Guid(5504a071983441b46a5dc63053650ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd56a45a68e63170ed5f0893ce08cc79') in 0.013146 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 39.791632 seconds.
-  path: Assets/Highway Racer/Sounds/243400__freakinbehemoth__woosh.wav
-  artifactKey: Guid(4c570e3ffd1ebb14abedf77e7790a8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Sounds/243400__freakinbehemoth__woosh.wav using Guid(4c570e3ffd1ebb14abedf77e7790a8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557092cdfa2fcb87109f2fb21c189886') in 0.010285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.389 seconds
-Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.760 seconds
-Domain Reload Profiling: 1149ms
-	BeginReloadAssembly (133ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (194ms)
-		LoadAssemblies (250ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (761ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (399ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (300ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.9 KB). Loaded Objects now: 4229.
-Memory consumption went from 176.1 MB to 176.1 MB.
-Total: 2.379300 ms (FindLiveObjects: 0.193600 ms CreateObjectMapping: 0.092900 ms MarkObjects: 2.049900 ms  DeleteObjects: 0.041700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 195.299458 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Ariya.prefab
-  artifactKey: Guid(3f32dc9c2579bb84a90deef85761d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Ariya.prefab using Guid(3f32dc9c2579bb84a90deef85761d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0554a79f6c056addababe65ad08ada3') in 0.086970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 3.090630 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Ariya.prefab
-  artifactKey: Guid(3f32dc9c2579bb84a90deef85761d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Ariya.prefab using Guid(3f32dc9c2579bb84a90deef85761d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4d8c87dc75757a062f0c5610a2a796') in 0.014939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 5.019304 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Ariya.prefab
-  artifactKey: Guid(3f32dc9c2579bb84a90deef85761d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Ariya.prefab using Guid(3f32dc9c2579bb84a90deef85761d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29da2321d1b28d8dab0be5e8c97d17ba') in 0.015022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 14.374609 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/BMW 7.prefab
-  artifactKey: Guid(cedc302ee53a52245ab1b6585ca50620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/BMW 7.prefab using Guid(cedc302ee53a52245ab1b6585ca50620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b607665c1bde64a37fa8d96f64f63241') in 0.014302 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 3.620289 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/BMW 7.prefab
-  artifactKey: Guid(cedc302ee53a52245ab1b6585ca50620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/BMW 7.prefab using Guid(cedc302ee53a52245ab1b6585ca50620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79620845b9b46e6c23098a3e9a8a22a1') in 0.008613 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 16.380215 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Land Rover Defender.prefab
-  artifactKey: Guid(7a9b928e3d0642445ab05465f637b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Land Rover Defender.prefab using Guid(7a9b928e3d0642445ab05465f637b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef1873f2689f522440e39d06a0ed77a') in 0.013848 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 4.417570 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Land Rover Defender.prefab
-  artifactKey: Guid(7a9b928e3d0642445ab05465f637b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Land Rover Defender.prefab using Guid(7a9b928e3d0642445ab05465f637b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26017a1f10d38cb68ec7ee1c06a8a5a7') in 0.015532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 4.025538 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Land Rover Defender.prefab
-  artifactKey: Guid(7a9b928e3d0642445ab05465f637b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Land Rover Defender.prefab using Guid(7a9b928e3d0642445ab05465f637b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7714ce78aaebc4bc75ee2cfa551834f9') in 0.014630 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 10.513680 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Mercedes V class.prefab
-  artifactKey: Guid(f1cb6a22370941f47b7ba554f5beea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Mercedes V class.prefab using Guid(f1cb6a22370941f47b7ba554f5beea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38784d2b8af414acdce56902c4ee046f') in 0.013946 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 3.398896 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Mercedes V class.prefab
-  artifactKey: Guid(f1cb6a22370941f47b7ba554f5beea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Mercedes V class.prefab using Guid(f1cb6a22370941f47b7ba554f5beea40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757fa32beb62e3a616513ca7fe1dc005') in 0.014084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 17.758221 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Nissan.prefab
-  artifactKey: Guid(3da8ecab727829249afe1a1187d09c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Nissan.prefab using Guid(3da8ecab727829249afe1a1187d09c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adceef6b648f7be6637c4c14c5c224c8') in 0.014303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 8.431013 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Nissan.prefab
-  artifactKey: Guid(3da8ecab727829249afe1a1187d09c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Nissan.prefab using Guid(3da8ecab727829249afe1a1187d09c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddd629f00d327083089ec73fd8c9b3d') in 0.008426 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 14.139927 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Nissan Hatch.prefab
-  artifactKey: Guid(25616a0bfda5aa44b96870901350a6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Nissan Hatch.prefab using Guid(25616a0bfda5aa44b96870901350a6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37df0e65e0322ea9cbd3f49c5733420b') in 0.015974 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 2.587804 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Nissan Hatch.prefab
-  artifactKey: Guid(25616a0bfda5aa44b96870901350a6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Nissan Hatch.prefab using Guid(25616a0bfda5aa44b96870901350a6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b558419e691b0411350a93fa0baa54') in 0.010103 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 11.524588 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Polestar.prefab
-  artifactKey: Guid(cb47c35648db5424e937f33bda1ded56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Polestar.prefab using Guid(cb47c35648db5424e937f33bda1ded56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ada064e010ecbb2e316fc827bf2d72') in 0.013585 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 5.834067 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Polestar.prefab
-  artifactKey: Guid(cb47c35648db5424e937f33bda1ded56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Polestar.prefab using Guid(cb47c35648db5424e937f33bda1ded56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bcbdda6df821a127cfb5cb834d1b05') in 0.009106 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 2.624890 seconds.
-  path: Assets/Highway Racer/Prefabs/Traffic Vehicles/Polestar.prefab
-  artifactKey: Guid(cb47c35648db5424e937f33bda1ded56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highway Racer/Prefabs/Traffic Vehicles/Polestar.prefab using Guid(cb47c35648db5424e937f33bda1ded56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a0a41593ae80a6e796e40014d7f14a') in 0.009957 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.361 seconds
-Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.805 seconds
-Domain Reload Profiling: 1164ms
-	BeginReloadAssembly (132ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (174ms)
-		LoadAssemblies (230ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (805ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (438ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (322ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.8 KB). Loaded Objects now: 4232.
-Memory consumption went from 178.3 MB to 178.3 MB.
-Total: 2.677900 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.235100 ms MarkObjects: 2.125900 ms  DeleteObjects: 0.041800 ms)
+Unloading 23 unused Assets / (30.8 KB). Loaded Objects now: 4260.
+Memory consumption went from 175.6 MB to 175.6 MB.
+Total: 2.364300 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.087900 ms MarkObjects: 2.032900 ms  DeleteObjects: 0.043500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
