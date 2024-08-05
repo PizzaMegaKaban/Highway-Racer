@@ -160,17 +160,17 @@ public class HR_CarCamera : MonoBehaviour {
 
             } else {
 
-                transform.LookAt(playerCar.transform);
-                targetFieldOfView = Mathf.Lerp(targetFieldOfView, Mathf.Lerp(50f, 10f, Mathf.InverseLerp(0f, 30f, Vector3.Distance(transform.position, playerCar.transform.position))), Time.deltaTime * 3f);
+                //transform.LookAt(playerCar.transform);
+                //targetFieldOfView = Mathf.Lerp(targetFieldOfView, Mathf.Lerp(50f, 10f, Mathf.InverseLerp(0f, 30f, Vector3.Distance(transform.position, playerCar.transform.position))), Time.deltaTime * 3f);
 
-                if (Vector3.Distance(transform.position, playerCar.transform.position) > 30f) {
+                //if (Vector3.Distance(transform.position, playerCar.transform.position) > 30f) {
 
-                    transform.position = playerCar.transform.position;
-                    transform.position += Vector3.forward * (20f * Mathf.Sign(playerCar.InverseTransformDirection(playerRigid.velocity).z));
-                    transform.position += Vector3.up * 2f;
-                    transform.position += Vector3.right * Random.Range(-2f, 2f);
+                //    transform.position = playerCar.transform.position;
+                //    transform.position += Vector3.forward * (20f * Mathf.Sign(playerCar.InverseTransformDirection(playerRigid.velocity).z));
+                //    transform.position += Vector3.up * 2f;
+                //    transform.position += Vector3.right * Random.Range(-2f, 2f);
 
-                }
+                //}
 
             }
 

@@ -6,6 +6,7 @@
 //
 //----------------------------------------------
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -59,33 +60,33 @@ public class HR_VehicleUpgrade_UpgradeManager : MonoBehaviour {
         //  Getting current upgrade levels
 
         if (engine)
-            engineLevel = engine.engineLevel;
+            engineLevel = PlayerPrefs.GetInt($"VehicleUpgrade{nameof(engine)}{PlayerPrefs.GetInt("SelectedPlayerCarIndex", 0)}", engine.engineLevel);
 
         if (brake)
-            brakeLevel = brake.brakeLevel;
+            brakeLevel = PlayerPrefs.GetInt($"VehicleUpgrade{nameof(brake)}{PlayerPrefs.GetInt("SelectedPlayerCarIndex", 0)}", brake.brakeLevel);
 
         if (handling)
-            handlingLevel = handling.handlingLevel;
+            handlingLevel = PlayerPrefs.GetInt($"VehicleUpgrade{nameof(handling)}{PlayerPrefs.GetInt("SelectedPlayerCarIndex", 0)}", handling.handlingLevel);
 
         if (nos)
-            nosState = nos.nosState;
+            nosState = Convert.ToBoolean(PlayerPrefs.GetString($"VehicleUpgrade{nameof(nos)}{PlayerPrefs.GetInt("SelectedPlayerCarIndex", 0)}", nos.nosState.ToString()));
 
         if (speed)
-            speedLevel = speed.speedLevel;
-
+            speedLevel = PlayerPrefs.GetInt($"VehicleUpgrade{nameof(speed)}{PlayerPrefs.GetInt("SelectedPlayerCarIndex", 0)}", speed.speedLevel);
+        
     }
 
     /// <summary>
     /// Upgrades the engine torque.
     /// </summary>
-    public void UpgradeEngine() {
-
+    public void UpgradeEngine()
+    {
         if (!engine)
             return;
 
         engine.engineLevel++;
+        PlayerPrefs.SetInt($"VehicleUpgrade{nameof(engine)}{PlayerPrefs.GetInt("SelectedPlayerCarIndex", 0)}", engine.engineLevel);
         engine.UpdateStats();
-
     }
 
     /// <summary>
@@ -97,8 +98,8 @@ public class HR_VehicleUpgrade_UpgradeManager : MonoBehaviour {
             return;
 
         brake.brakeLevel++;
+        PlayerPrefs.SetInt($"VehicleUpgrade{nameof(brake)}{PlayerPrefs.GetInt("SelectedPlayerCarIndex", 0)}", brake.brakeLevel);
         brake.UpdateStats();
-
     }
 
     /// <summary>
@@ -110,6 +111,7 @@ public class HR_VehicleUpgrade_UpgradeManager : MonoBehaviour {
             return;
 
         handling.handlingLevel++;
+        PlayerPrefs.SetInt($"VehicleUpgrade{nameof(handling)}{PlayerPrefs.GetInt("SelectedPlayerCarIndex", 0)}", handling.handlingLevel);
         handling.UpdateStats();
 
     }
@@ -123,6 +125,7 @@ public class HR_VehicleUpgrade_UpgradeManager : MonoBehaviour {
             return;
 
         nos.nosState = true;
+        PlayerPrefs.SetString($"VehicleUpgrade{nameof(nos)}{PlayerPrefs.GetInt("SelectedPlayerCarIndex", 0)}", nos.nosState.ToString());
         nos.UpdateStats();
 
     }
@@ -136,8 +139,8 @@ public class HR_VehicleUpgrade_UpgradeManager : MonoBehaviour {
             return;
 
         speed.speedLevel++;
+        PlayerPrefs.SetInt($"VehicleUpgrade{nameof(speed)}{PlayerPrefs.GetInt("SelectedPlayerCarIndex", 0)}", speed.speedLevel);
         speed.UpdateStats();
-
     }
 
     private void Reset() {
@@ -213,5 +216,4 @@ public class HR_VehicleUpgrade_UpgradeManager : MonoBehaviour {
         }
 
     }
-
 }

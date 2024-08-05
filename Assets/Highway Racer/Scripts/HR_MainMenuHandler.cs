@@ -237,7 +237,6 @@ public class HR_MainMenuHandler : MonoBehaviour {
     public void SelectCar() {
 
         PlayerPrefs.SetInt("SelectedPlayerCarIndex", carIndex);
-
     }
 
     /// <summary>
@@ -332,7 +331,6 @@ public class HR_MainMenuHandler : MonoBehaviour {
         bestScoreTwoWay.text = "BEST SCORE\n" + scores[1];
         bestScoreTimeLeft.text = "BEST SCORE\n" + scores[2];
         bestScoreBomb.text = "BEST SCORE\n" + scores[3];
-
     }
 
 #if PHOTON_UNITY_NETWORKING && BCG_HR_PHOTON

@@ -397,7 +397,6 @@ public class HR_TrafficCar : MonoBehaviour {
     }
 
     private void OnCollisionEnter(Collision col) {
-
         if (crashed || spawnProtection < .5f)
             return;
 

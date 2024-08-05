@@ -10,7 +10,7 @@ public class C_BrakeLights : MonoBehaviour
     public GameObject[] BrakeLights;
 
     /// <summary>
-    /// ћатериал дл€ стоп-огей когда они активны.
+    /// ћатериал дл€ стоп-огней когда они активны.
     /// </summary>
     public Material ActiveBrakeLightsMaterial;
 

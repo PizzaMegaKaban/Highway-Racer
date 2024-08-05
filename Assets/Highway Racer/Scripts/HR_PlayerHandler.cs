@@ -434,7 +434,7 @@ public class HR_PlayerHandler : MonoBehaviour {
 
         }
 
-        if (damage >= 100f) {
+        if (damage >= 0f) {
 
             //	Game over.
             GameOver();
