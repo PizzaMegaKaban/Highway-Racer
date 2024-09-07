@@ -2868,8 +2868,7 @@ MonoBehaviour:
   selectCarButton: {fileID: 3742171404428935639}
   modCarPanel: {fileID: 8198343931042004687}
   currency: {fileID: 1445363055}
-  vehicleNameText: {fileID: 0}
-  bestScoreOneWay: {fileID: 0}
+  bestScoreOneWay: {fileID: 7642878786728863764}
   bestScoreTwoWay: {fileID: 1311208660}
   bestScoreTimeLeft: {fileID: 1200455961}
   bestScoreBomb: {fileID: 1738242584}
@@ -10811,7 +10810,7 @@ GameObject:
   - component: {fileID: 1503227262}
   - component: {fileID: 1503227261}
   m_Layer: 5
-  m_Name: 'Buy currency '
+  m_Name: 'Buy Currency '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10824,7 +10823,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503227259}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10832,11 +10831,11 @@ RectTransform:
   - {fileID: 1298649017}
   - {fileID: 146985064}
   - {fileID: 990383036}
-  m_Father: {fileID: 2023598517962402569}
+  m_Father: {fileID: 3287473673933561901}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -83, y: 57.4}
+  m_AnchoredPosition: {x: -83, y: 57.400032}
   m_SizeDelta: {x: 350, y: 120}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1503227261
@@ -17465,7 +17464,6 @@ RectTransform:
   m_Children:
   - {fileID: 6087600734311065189}
   - {fileID: 7821617734854810817}
-  - {fileID: 1503227260}
   m_Father: {fileID: 4409742372148992369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -19557,6 +19555,7 @@ RectTransform:
   - {fileID: 3272212033647811500}
   - {fileID: 5039651115675643653}
   - {fileID: 6407346239474871788}
+  - {fileID: 1503227260}
   m_Father: {fileID: 4409742372148992369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
