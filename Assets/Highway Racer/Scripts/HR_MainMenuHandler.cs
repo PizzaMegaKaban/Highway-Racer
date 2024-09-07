@@ -61,7 +61,7 @@ public class HR_MainMenuHandler : MonoBehaviour {
     public Text currency;
 
     [Header("Best Score Texts")]
-    public Text vehicleNameText;        //	Current vehicle name text.
+    // public Text vehicleNameText;        //	Current vehicle name text.
     public Text bestScoreOneWay;        //	Best score one way text.
     public Text bestScoreTwoWay;        //	Best score two ways text.
     public Text bestScoreTimeLeft;      //	Best score time left text.
@@ -191,8 +191,8 @@ public class HR_MainMenuHandler : MonoBehaviour {
         currentApplier = currentCar.GetComponent<HR_ModApplier>();
 
         //	Displaying car name text.
-        if (vehicleNameText)
-            vehicleNameText.text = HR_PlayerCars.Instance.cars[carIndex].vehicleName;
+        //if (vehicleNameText)
+        //    vehicleNameText.text = HR_PlayerCars.Instance.cars[carIndex].vehicleName;
 
         HR_ModHandler.Instance.ChooseClass(null);
 
