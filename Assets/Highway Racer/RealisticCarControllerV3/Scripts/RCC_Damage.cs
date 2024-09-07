@@ -23,7 +23,7 @@ public class RCC_Damage {
     // Mesh deformation
     [Space()]
     [Header("Mesh Deformation")]
-    public bool meshDeformation = true;
+    public bool meshDeformation = false;
     public DeformationMode deformationMode = DeformationMode.Fast;
 
     public enum DeformationMode { Accurate, Fast }
@@ -59,7 +59,7 @@ public class RCC_Damage {
     // Wheel deformation
     [Space()]
     [Header("Wheel Deformation")]
-    public bool wheelDamage = true;     //	Use wheel damage.
+    public bool wheelDamage = false;     //	Use wheel damage.
     public float wheelDamageRadius = .5f;        //   Wheel damage radius.
     public float wheelDamageMultiplier = 1f;        //  Wheel damage multiplier.
     public bool wheelDetachment = true;     //	Use wheel detachment.
@@ -67,14 +67,14 @@ public class RCC_Damage {
     // Light deformation
     [Space()]
     [Header("Light Deformation")]
-    public bool lightDamage = true;     //	Use light damage.
+    public bool lightDamage = false;     //	Use light damage.
     public float lightDamageRadius = .5f;        //Light damage radius.
     public float lightDamageMultiplier = 1f;        //Light damage multiplier.
 
     // Part deformation
     [Space()]
     [Header("Part Deformation")]
-    public bool partDamage = true;     //	Use part damage.
+    public bool partDamage = false;     //	Use part damage.
     public float partDamageRadius = .5f;        //Light damage radius.
     public float partDamageMultiplier = 1f;        //Light damage multiplier.
 

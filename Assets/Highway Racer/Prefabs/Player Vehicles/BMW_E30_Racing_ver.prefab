@@ -1487,9 +1487,9 @@ MonoBehaviour:
     detachableParts: []
     lights: []
     wheels: []
-  useDamage: 1
-  useCollisionParticles: 0
-  useCollisionAudio: 0
+  useDamage: 0
+  useCollisionParticles: 1
+  useCollisionAudio: 1
   maximumContactSparkle: 5
   velocityDirection: {fileID: 0}
   steeringDirection: {fileID: 0}

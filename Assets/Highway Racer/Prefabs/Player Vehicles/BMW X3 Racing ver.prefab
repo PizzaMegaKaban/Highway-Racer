@@ -2119,7 +2119,7 @@ MonoBehaviour:
     detachableParts: []
     lights: []
     wheels: []
-  useDamage: 1
+  useDamage: 0
   useCollisionParticles: 1
   useCollisionAudio: 1
   maximumContactSparkle: 5

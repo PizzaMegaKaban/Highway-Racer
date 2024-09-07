@@ -1448,7 +1448,7 @@ MonoBehaviour:
   drawSkid: 1
   wheelPosition: {x: 0, y: 0, z: 0}
   wheelRotation: {x: 0, y: 0, z: 0, w: 1}
-  canPower: 0
+  canPower: 1
   powerMultiplier: 1
   canSteer: 1
   steeringMultiplier: 1
@@ -2930,7 +2930,7 @@ MonoBehaviour:
     damageResolution: 100
     damageFilter:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 1015607
     randomizeVertices: 1
     damageRadius: 0.5
     damageMultiplier: 1
@@ -2953,7 +2953,7 @@ MonoBehaviour:
     detachableParts: []
     lights: []
     wheels: []
-  useDamage: 1
+  useDamage: 0
   useCollisionParticles: 1
   useCollisionAudio: 1
   maximumContactSparkle: 5
@@ -3459,7 +3459,7 @@ MonoBehaviour:
   drawSkid: 1
   wheelPosition: {x: 0, y: 0, z: 0}
   wheelRotation: {x: 0, y: 0, z: 0, w: 1}
-  canPower: 0
+  canPower: 1
   powerMultiplier: 1
   canSteer: 1
   steeringMultiplier: 1

@@ -3590,7 +3590,7 @@ MonoBehaviour:
     damageResolution: 100
     damageFilter:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 1015607
     randomizeVertices: 1
     damageRadius: 0.5
     damageMultiplier: 1
@@ -3613,7 +3613,7 @@ MonoBehaviour:
     detachableParts: []
     lights: []
     wheels: []
-  useDamage: 1
+  useDamage: 0
   useCollisionParticles: 1
   useCollisionAudio: 1
   maximumContactSparkle: 5
