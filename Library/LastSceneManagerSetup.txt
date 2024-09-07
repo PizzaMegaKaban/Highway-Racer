@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Highway Racer/Scenes/Winter.unity
+- path: Assets/Highway Racer/Scenes/Menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
