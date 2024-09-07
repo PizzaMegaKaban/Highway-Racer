@@ -11,6 +11,7 @@ using UnityEngine.UI;
 using System;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 #if PHOTON_UNITY_NETWORKING
 using Photon;
 using Photon.Pun;
@@ -211,6 +212,16 @@ public class HR_GamePlayHandler : MonoBehaviour {
             player = (RCC.SpawnRCC(HR_PlayerCars.Instance.cars[selectedCarIndex].playerCar.GetComponent<RCC_CarControllerV3>(), spawnLocation.position, spawnLocation.rotation, true, false, true)).GetComponent<HR_PlayerHandler>();
             player.canCrash = true;
             player.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, minimumSpeed / 1.75f);
+
+            // тут нужно прописать проброс цвета и характеристик
+            int carIndex = PlayerPrefs.GetInt("SelectedPlayerCarIndex", 0);
+            var carColor = GetColor($"SelectedPlayerCarColor{carIndex}");
+
+            HR_VehicleUpgrade_PaintManager dm = FindObjectOfType<HR_VehicleUpgrade_PaintManager>();
+
+            if (dm)
+                dm.Paint(carColor);
+
             RCC_Customization.LoadStats(player.GetComponent<RCC_CarControllerV3>());
             StartCoroutine(CheckDayTime());
 
@@ -374,4 +385,17 @@ public class HR_GamePlayHandler : MonoBehaviour {
 
     }
 
+    private Color GetColor(string key)
+    {
+        float R = PlayerPrefs.GetFloat(key + "R", 0f);
+        float G = PlayerPrefs.GetFloat(key + "G", 0f);
+        float B = PlayerPrefs.GetFloat(key + "B", 0f);
+        return new Color(R, G, B);
+    }
+
+    private Dictionary<string, int> GetCarCharecteristics(string key)
+    {
+        Dictionary<string, int> charecteristics = new Dictionary<string, int>();
+        return charecteristics;
+    }
 }

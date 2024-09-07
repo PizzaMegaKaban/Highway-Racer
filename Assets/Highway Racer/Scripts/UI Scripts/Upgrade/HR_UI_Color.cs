@@ -70,6 +70,9 @@ public class HR_UI_Color : MonoBehaviour {
 
         dm.Paint(color);
 
+        int carIndex = PlayerPrefs.GetInt("SelectedPlayerCarIndex", 0);
+        SaveColor($"SelectedPlayerCarColor{carIndex}", color);
+
         CheckPurchase();
 
     }
@@ -93,4 +96,10 @@ public class HR_UI_Color : MonoBehaviour {
 
     }
 
+    private void SaveColor(string key, Color color)
+    {
+        PlayerPrefs.SetFloat(key + "R", color.r);
+        PlayerPrefs.SetFloat(key + "G", color.g);
+        PlayerPrefs.SetFloat(key + "B", color.b);
+    }
 }
